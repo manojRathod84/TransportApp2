@@ -1,19 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:background="@color/background"
+    android:orientation="vertical"
     tools:context=".Contact">
 
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:drawableLeft="@drawable/ic_local_phone_black_24dp"
+        android:text=" Phone No. : +91-8888888888"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="35dp"
-        android:text="Contact"/>
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:drawableLeft="@drawable/ic_location_on_black_24dp"
+        android:text=" Address : Pune"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+    android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:text=" Email Address : xyz@gmail.com"
+    android:textColor="#fff"
+        android:textSize="20dp"
+    android:textStyle="bold"
+    />
 
 
 </LinearLayout>
